@@ -7,11 +7,11 @@
     "test": "test"
   },
   "dependencies": {
-    "concat-stream": "~1.4.4",
-    "jshint": "~2.4.4",
-    "lib-stream-stringify": "~0.0.0"
   },
   "devDependencies": {
+    "concat-stream": "~1.4.4",
+    "jshint": "~2.4.4",
+    "lib-stream-stringify": "~0.0.0",
     "tap": "~0.4.8"
   },
   "scripts": {
