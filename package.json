@@ -1,0 +1,30 @@
+{
+  "name": "lib-stream-solidify",
+  "version": "0.0.0",
+  "description": "stream to object or text",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "concat-stream": "~1.4.4",
+    "jshint": "~2.4.4",
+    "lib-stream-stringify": "~0.0.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.8"
+  },
+  "scripts": {
+    "test": "jshint index.js && tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/groundwater/node-lib-stream-solidify.git"
+  },
+  "author": "Jacob Groundwater <groundwater@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/groundwater/node-lib-stream-solidify/issues"
+  },
+  "homepage": "https://github.com/groundwater/node-lib-stream-solidify"
+}
