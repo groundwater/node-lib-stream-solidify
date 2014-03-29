@@ -1,13 +1,12 @@
 {
   "name": "lib-stream-solidify",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "stream to object or text",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "concat-stream": "~1.4.4",
     "jshint": "~2.4.4",
