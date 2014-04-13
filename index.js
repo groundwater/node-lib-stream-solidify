@@ -25,12 +25,14 @@ Solidify.prototype.text = function (callback) {
 
 Solidify.prototype.json = function (callback) {
   var buffer = this.buffer;
-  this.text(function (err, text) {
+  this.text(function (_, text) {
+    var out, err;
     try {
-      callback(null, JSON.parse(text));
+      out = JSON.parse(text);
     } catch (e) {
-      callback(e);
+      err = e;
     }
+    callback(err, out);
   });
 
   return this;
